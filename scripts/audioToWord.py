@@ -38,5 +38,6 @@ if aligned and "word_segments" in aligned:
     print("\n--- Word‑level Timing ---\n")
     for w in aligned["word_segments"]:
         print(f"{w['word']} | {w['start']:.2f}s → {w['end']:.2f}s")
+
 else:
     print("\nCANNOT GET RESULT")
