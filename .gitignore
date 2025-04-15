@@ -1,0 +1,14 @@
+# Python 暫存檔與虛擬環境
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+whisper-env/
+
+# ffmpeg 套件
+ffmpeg-7.1.1-essentials_build/
+
+# VS Code 設定
+.vscode/
